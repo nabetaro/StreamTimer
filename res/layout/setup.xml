@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:weightSum="1">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/min" android:text="min"></TextView>
+    <EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="number" android:id="@+id/editMin">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/interval" android:text="interval"></TextView>
+    <EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="number" android:id="@+id/editInterval"></EditText>
+    <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20dp" android:id="@+id/buttonSet" android:text="set"></Button>
+    
+</LinearLayout>
